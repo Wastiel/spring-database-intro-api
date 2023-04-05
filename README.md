@@ -1,6 +1,6 @@
-# IntroduÁ„o ‡ API Java Simples com Spring e Banco de Dados
+# Introdu√ß√£o √† API Java Simples com Spring e Banco de Dados
 
-Este È um projeto simples que demonstra os conceitos b·sicos de construÁ„o de uma API Java usando o framework Spring e interagindo com um banco de dados relacional. O projeto inclui trÍs entidades: Departamento, BenefÌcio e Funcion·rio, que s„o usadas para mostrar as operaÁıes b·sicas CRUD (Create, Read, Update) que podem ser realizadas atravÈs dos endpoints da API. Como o foco È a construÁ„o das entidades relacionamento, optamos por deixar o delete de fora.
+Este √© um projeto simples que demonstra os conceitos b√°sicos de constru√ß√£o de uma API Java usando o framework Spring e interagindo com um banco de dados relacional. O projeto inclui tr√™s entidades: Departamento, Benef√≠cio e Funcion√°rio, que s√£o usadas para mostrar as opera√ß√µes b√°sicas CRUD (Create, Read, Update) que podem ser realizadas atrav√©s dos endpoints da API. Como o foco √© a constru√ß√£o das entidades relacionamento, optamos por deixar o delete de fora.
 
 ## Tecnologias utilizadas
 
@@ -9,29 +9,29 @@ Este È um projeto simples que demonstra os conceitos b·sicos de construÁ„o de um
 * Spring Data JPA
 * Banco de Dados PostgreSQL
 
-## Como comeÁar
-Para executar este projeto em sua m·quina local, siga as etapas abaixo:
+## Como come√ßar
+Para executar este projeto em sua m√°quina local, siga as etapas abaixo:
 
-1. Clone este repositÛrio em sua m·quina local: https://github.com/Wastiel/spring-database-intro-api.git
+1. Clone este reposit√≥rio em sua m√°quina local: https://github.com/Wastiel/spring-database-intro-api.git
 2. Abra o IntelliJ IDEA e importe o projeto
-3. Crie um banco de dados no Postgres com o nome "tabelas". VocÍ pode criar um novo banco de dados usando a ferramenta DBeaver:
+3. Crie um banco de dados no Postgres com o nome "tabelas". Voc√™ pode criar um novo banco de dados usando a ferramenta DBeaver:
 4. Configure o arquivo "application.properties" para usar o banco de dados Postgres.
-5. Execute o projeto. O Spring Boot criar· automaticamente as tabelas e relacionamentos no banco de dados.
-6. VocÍ pode usar a ferramenta DBeaver para visualizar as tabelas criadas e os dados inseridos. Para fazer isso, abra a conex„o criada no passo 3 e navegue atÈ o banco de dados "tabelas"
+5. Execute o projeto. O Spring Boot criar√° automaticamente as tabelas e relacionamentos no banco de dados.
+6. Voc√™ pode usar a ferramenta DBeaver para visualizar as tabelas criadas e os dados inseridos. Para fazer isso, abra a conex√£o criada no passo 3 e navegue at√© o banco de dados "tabelas"
 
 ## Vizualisando o modelo ER
 
-No Dbeaver 22.3, È possÌvel visualizar o modelo Entidade-Relacionamento (ER) seguindo os passos abaixo:
+No Dbeaver 22.3, √© poss√≠vel visualizar o modelo Entidade-Relacionamento (ER) seguindo os passos abaixo:
 
-1. Abra o banco de tabelas e v· atÈ o diretÛrio "Tabelas".
-2. Clique com o bot„o direito do mouse em "Tabelas" e selecione "Visualizar Diagramas".
-3. O modelo ER ser· exibido na tela.
+1. Abra o banco de tabelas e v√° at√© o diret√≥rio "Tabelas".
+2. Clique com o bot√£o direito do mouse em "Tabelas" e selecione "Visualizar Diagramas".
+3. O modelo ER ser√° exibido na tela.
 
 ![Modelo ER da API](./img/modelo_er.png)
 
 ## Endpoints
 
-A API expıe os seguintes endpoints:
+A API exp√µe os seguintes endpoints:
  
 * Beneficio
   - GET /beneficio/{id} retorna um beneificio especifico por ID
@@ -49,10 +49,10 @@ A API expıe os seguintes endpoints:
   - POST /funcionario - Cria um novo funcionario.
   - PUT /funcionario - Atualiza um funcionario recebendo um objeto funcionario
 
-Cada endpoint retorna um objeto JSON representando o departamento, benefÌcio ou funcion·rio manipulado.
+Cada endpoint retorna um objeto JSON representando o departamento, benef√≠cio ou funcion√°rio manipulado.
 
-## Conclus„o
-Este projeto serve como uma introduÁ„o b·sica ‡ construÁ„o de uma API Java com Spring e interaÁ„o com um banco de dados relacional. Ele demonstra como realizar operaÁıes CRUD usando endpoints da API e fornece uma base para a construÁ„o de APIs mais complexas.
+## Conclus√£o
+Este projeto serve como uma introdu√ß√£o b√°sica √† constru√ß√£o de uma API Java com Spring e intera√ß√£o com um banco de dados relacional. Ele demonstra como realizar opera√ß√µes CRUD usando endpoints da API e fornece uma base para a constru√ß√£o de APIs mais complexas.
 
 --------------------------------------------------
 
@@ -85,7 +85,7 @@ In Dbeaver 22.3, you can view the Entity-Relationship (ER) model by following th
 2. Right-click on "Tables" and select "View Diagrams".
 3. The ER model will be displayed on the screen.
 
-![API ER model](./img/modelo_er.png)
+![API ER model](/img/modelo_er.png)
 
 ## Endpoints
 
