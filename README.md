@@ -27,7 +27,7 @@ No Dbeaver 22.3, é possível visualizar o modelo Entidade-Relacionamento (ER) s
 2. Clique com o botão direito do mouse em "Tabelas" e selecione "Visualizar Diagramas".
 3. O modelo ER será exibido na tela.
 
-![Modelo ER da API](img/modelo_er.PNG?raw=true )
+![Modelo ER da API](img/modelo_er.PNG?raw=true)
 
 ## Endpoints
 
@@ -85,7 +85,7 @@ In Dbeaver 22.3, you can view the Entity-Relationship (ER) model by following th
 2. Right-click on "Tables" and select "View Diagrams".
 3. The ER model will be displayed on the screen.
 
-![API ER model](/img/modelo_er.png)
+![API ER model](img/modelo_er.PNG?raw=true)
 
 ## Endpoints
 
