@@ -102,11 +102,11 @@ The API exposes the following endpoints:
   - POST /departamento - Creates a new department.
   - PUT /departamento - Updates a department by receiving a department object
 * Employee (Funcionario)
-  GET /funcionario/{id} returns a specific employee by ID
-  GET /funcionario Returns a list of all employees
-  POST /funcionario - Creates a new employee.
-  PUT /funcionario - Updates an employee by receiving an employee object
-  Each endpoint returns a JSON object representing the manipulated department, benefit, or employee.
+  - GET /funcionario/{id} returns a specific employee by ID
+  - GET /funcionario Returns a list of all employees
+  - POST /funcionario - Creates a new employee.
+  - PUT /funcionario - Updates an employee by receiving an employee object
+  - Each endpoint returns a JSON object representing the manipulated department, benefit, or employee.
 
 ## Conclusion
 This project serves as a basic introduction to building a Java API with Spring and interacting with a relational database. It demonstrates how to perform CRUD operations using API endpoints and provides a foundation for building more complex APIs.
